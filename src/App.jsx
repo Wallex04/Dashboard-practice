@@ -8,6 +8,7 @@ import EmailVerification from './components/EmailVerification'
 import OTPVerification from './components/OTPVerification'
 import Role from './components/DashboardFiles/Role'
 import Admin from './components/DashboardFiles/Admin'
+import RolesComponent from './components/RolesComponent/RolesComponent'
 function App() {
 
   return (
@@ -23,7 +24,7 @@ function App() {
      <Route path='/Admin' element={<Admin/>}/>
      </Routes>
     </div>
-    
+    <RolesComponent/>
     </div>
    
     <Routes>

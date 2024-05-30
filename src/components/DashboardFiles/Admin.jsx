@@ -13,6 +13,7 @@ const Admin = () => {
       />
       <CustomSearchFilter
         Filter= 'Filter:'
+        buttonText = '+ Invite Admin'
         filterLabel = 'Status'
         filterLabel2 = 'Role'
       />

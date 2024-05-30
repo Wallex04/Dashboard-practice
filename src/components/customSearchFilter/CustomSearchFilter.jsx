@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
@@ -9,7 +8,7 @@ const CustomSearchFilter = ({
   searchPlaceholder = 'Search by name...',
   filterLabel = 'Filter',
   filterLabel2,
-  buttonText = 'Create role',
+  buttonText,
   Filter,
   onSearchChange,
   onFilterClick,

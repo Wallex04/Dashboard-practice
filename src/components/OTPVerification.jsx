@@ -1,37 +1,3 @@
-// import React from 'react'
-// import Button from '../components/Button/CustomButton'
-// import { ButtonSize, ButtonState } from '../components/Button/ButtonStyles'
-// const OTPVerification = () => {
-//   return (
-//     <div className='w-[430px] text-center m-auto rounded-md border border-[#F3EBEF] shadow-md mb-10'>
-//       <h1 className='font-semibold pt-10 pb-1  text-[20px]'>Verify OTP</h1>
-//       <p className=' text-[14px]'>Enter the six digit code send to your Email address,</p>
-//       <p className='font-semibold  text-[14px]'> Annjesunge@gmail.com'</p>
-//       <div className=' gap-3 flex justify-center items-center mt-6 mb-5'>
-//         <p className='w-10 h-10 bg-[#EFF3f5] rounded-md flex justify-center items-center'><span className='text-center opacity-20'>-</span></p>
-//         <div className='w-10 h-10 bg-[#EFF3f5] rounded-md flex justify-center items-center'><span className='text-center w-5 opacity-20'>-</span></div>
-//         <div className='w-10 h-10 bg-[#EFF3f5] rounded-md flex justify-center items-center'><span className='text-center w-5 opacity-20'>-</span></div>
-//         <div className='w-10 h-10 bg-[#EFF3f5] rounded-md flex justify-center items-center'><span className='text-center w-5 opacity-20'>-</span></div>
-//         <div className='w-10 h-10 bg-[#EFF3f5] rounded-md flex justify-center items-center'><span className='text-center w-5 opacity-20'>-</span></div>
-//         <div className='w-10 h-10 bg-[#EFF3f5] rounded-md flex justify-center items-center'><span className='text-center w-5 opacity-20'>-</span></div>
-//       </div>
-//       <div className='flex justify-between items-center mx-16 mb-10'>
-//         <p className='text-[#4F5559] text-[14px]'>Didn't receive code?</p>
-//         <span className='text-[12px] text-[#0051CF]'>Resend in 01:59</span>
-//       </div>
-//       <Button
-//         className='mb-10'
-//         value='OTP Verification'
-//         size={ButtonSize.lg}
-//         variant={ButtonState.lg}
-//       />
-//     </div>
-//   )
-// }
-
-// export default OTPVerification
-
-
 import React, { useState } from 'react';
 import Button from '../components/Button/CustomButton';
 import { ButtonSize, ButtonState } from '../components/Button/ButtonStyles';
